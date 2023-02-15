@@ -90,4 +90,5 @@ INNER JOIN
 ON
     customers.country = country_codes.country
 ORDER BY
-    customer_id;
+    customer_id
+GO
