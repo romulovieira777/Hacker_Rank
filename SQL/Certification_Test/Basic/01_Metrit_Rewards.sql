@@ -48,4 +48,5 @@ WHERE
         FROM
             last_quarter_bonus
         WHERE
-            bonus >= 5000);
+            bonus >= 5000)
+GO
