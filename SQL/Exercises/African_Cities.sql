@@ -1,0 +1,11 @@
+SELECT
+    CITY.name AS CITY
+FROM
+    CITY
+INNER JOIN
+    COUNTRY
+ON
+    CITY.CountryCode = COUNTRY.Code
+WHERE
+    CONTINENT = 'Africa'
+GO

@@ -1,0 +1,9 @@
+SELECT
+    DISTINCT(city) 
+FROM
+    station
+WHERE
+    REGEXP_LIKE(UPPER(city),'^[^AEIOU]')
+OR
+    REGEXP_LIKE(UPPER(city),'[^AEIOU]$')
+GO
