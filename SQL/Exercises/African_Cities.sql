@@ -10,24 +10,24 @@ Input Format
 The CITY and COUNTRY tables are described as follows:
 
 
---------------------------------------
-              CITY
---------------------------------------
-Field        | Type         |
---------------------------------------
-ID           | NUMBER       |
-Name         | VARCHAR2(17) |
-CountryCode  | VARCHAR2(3)  |
-District     | VARCHAR2(20) |
-Population   | NUMBER       |
---------------------------------------
+-------------------------------
+            CITY
+-------------------------------
+Field        | Type           |
+-------------------------------
+ID           | NUMBER         |
+Name         | VARCHAR2(17)   |
+CountryCode  | VARCHAR2(3)    |
+District     | VARCHAR2(20)   |
+Population   | NUMBER         |
+-------------------------------
 
 
---------------------------------------
-               COUNTRY
---------------------------------------
+-------------------------------
+            COUNTRY
+-------------------------------
 Field          | Type         |
---------------------------------------
+-------------------------------
 Code           | VARCHAR2(3)  |
 Name           | VARCHAR2(44) |
 Continent      | VARCHAR2(13) |
@@ -37,6 +37,7 @@ IndepYear      | VARCHAR2(5)  |
 Population     | NUMBER       |
 LifeExpectancy | VARCHAR2(4)  |
 GNP            | NUMBER       |
+-------------------------------
 
 */
 
