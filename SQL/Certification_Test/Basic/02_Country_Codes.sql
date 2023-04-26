@@ -81,7 +81,7 @@ Sample Output
 
 SELECT
     customer_id
-  , name,
+  , name
   , CONCAT('+', country_code, '', phone_number) AS phone_number
 FROM
     customers

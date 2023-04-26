@@ -37,16 +37,17 @@ bonus       | INTEGER | The bonus amount earned by the employee in the last quar
 */
 
 SELECT
-    employee_ID,
-    name
+  employee_ID,
+  name
 FROM
-    employee_information
+  employee_information
 WHERE
-    division = 'HR'
-        AND employee_ID IN (SELECT
-            employee_ID
-        FROM
-            last_quarter_bonus
-        WHERE
-            bonus >= 5000)
+  division = 'HR'
+AND employee_ID IN (
+  SELECT
+    employee_ID
+  FROM
+    last_quarter_bonus
+  WHERE
+    bonus >= 5000)
 GO
